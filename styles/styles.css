@@ -1,0 +1,105 @@
+/* Header Section Styles */
+/* Nav Section Styles */
+
+.header{
+}
+
+.nav-container{
+    display: flex;
+   align-items: center;
+}
+
+.nav{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-title-img{
+    width: 40px;
+    height:48px;
+    margin-left:150px;
+    margin-top:50px;
+}
+
+.nav-title{
+    width: 200px;
+    height: 45px;
+    font-size: 36px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+.nav-title-design, .home{
+    color: rgb(255, 84, 0);
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    color: rgb(66, 66, 71);
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 450px;
+    margin-top: 50px;
+    
+}
+
+/* Banner Section Styles */
+
+.header-banner{
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 1280px;
+    height: 500px;
+    border-radius: 15px;
+    margin-left: 155px;
+}
+
+.banner-title{
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+    font-weight: 800;
+    margin-left: 300px;
+    padding-top: 95px;
+}
+
+.banner-description{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 265px;
+}
+
+.input-field{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 800px;
+    height: 80px;
+    margin-left: 200px;
+    margin-top: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: baseline;
+}
+
+.where-go, .when, .select-type{
+    width: 165px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-left: 17px;
+    padding-left: 15px;
+   
+}
+
+.btn{
+    width:165px ;
+    height: 43px;
+    color: white;
+    background-color:rgb(255, 84, 0);
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 18px;
+}
