@@ -93,7 +93,7 @@
    
 }
 
-.btn{
+.btn, .btn2{
     width:165px ;
     height: 43px;
     color: white;
@@ -102,4 +102,28 @@
     border-radius: 8px;
     margin-top: 20px;
     margin-left: 18px;
+}
+
+/* Main Section Styles */
+
+.main-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-section-description{
+    margin-left: 145px;
+}
+
+.main-part-title{
+    font-size: 40px;
+    font-weight: 800px;
+    margin-top: 100px;
+}
+
+.main-section-img{
+    width: 540px;
+    height: 545px;
+    margin-top: 100px;
+    margin-right: 150px;
 }
